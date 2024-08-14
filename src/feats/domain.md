@@ -132,7 +132,7 @@ order: 10
 | 名称 | 方法 | 参数 | 示例                                 |
 | ---- | ---- | ---- |------------------------------------|
 | 鼠标按下 | mousedown | 鼠标按键left、right、middle，选填，不填默认left | `mousedown(left)`,`mousedown`      |
-| 鼠标松开 | mouseup | 鼠标按键left、right、middle，选填，不填默认left | `mouseup(right)`,`mousedown`       |
+| 鼠标松开 | mouseup | 鼠标按键left、right、middle，选填，不填默认left | `mouseup(right)`,`mouseup`       |
 | 鼠标单击 | click | 鼠标按键left、right、middle，选填，不填默认left | `click`,`click(middle)`            |
 | 鼠标相对移动 | moveby | 1. X轴移动相对距离，向左转动为负数，向右为正数，必填。2. Y轴移动距离，向上转动为负数，向下为正数，必填 | `moveby(500,0)`,`moveby(100,-100)` |
 | 键盘按下 | keydown | 键盘按下键的名称，必填，[按键代码](/feats/keycodes.html) | `keydown(a)`                       |
@@ -175,6 +175,6 @@ order: 10
 
 已知bug，但是由于没有设备，暂时无法修复。可以尝试使用1080P窗口。
 
-### 进入秘境后冲刺了以下不走了？
+### 进入秘境后冲刺了一下不走了？
 
 已知bug，换号后可能会出现此类情况，重启软件后就能恢复正常。
